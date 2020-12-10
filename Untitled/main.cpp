@@ -1,8 +1,8 @@
 #include "DxLib.h"
 #include "Scene.h"
 
-const int WINDOW_WIDTH = 320;
-const int WINDOW_HEIGHT = 180;
+const int WINDOW_WIDTH = 1080;
+const int WINDOW_HEIGHT = 720;
 
 // ÉvÉçÉOÉâÉÄÇÕ WinMain Ç©ÇÁénÇ‹ÇËÇ‹Ç∑
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)

@@ -1,5 +1,7 @@
 #pragma once
 #include "Define.h"
+#include "Player.h"
+#include "Input.h"
 
 class Scene
 {
@@ -18,6 +20,10 @@ private:
 	SCENE currentScene;
 	
 	bool isLoad = false;
+
+	Player* player;
+
+	Input* input;
 	
 };
 

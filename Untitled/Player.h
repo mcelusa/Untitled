@@ -1,20 +1,23 @@
 #pragma once
+#include "Input.h"
+
 class Player
 {
 
 public:
 
-	Player();
+	Player(float x, float y, float size, float speed = 5, float angle = 0);
 	void Draw();
-	void Update();
+	void Update(Input *input);
+	void Move(Input* input);
+	
 
 private:
 
 	float x;
 	float y;
 	float size;
-	float speedX;
-	float speedY;
+	float speed;
 	float angle;
 	float angleEnd;
 	
@@ -22,8 +25,7 @@ private:
 	int shieldGraph;
 	int wingGraph;
 
-	
+	bool isAlive;
 
-	
 };
 
